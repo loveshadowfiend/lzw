@@ -1,4 +1,4 @@
 /.vscode
-/generator.cpp
-/autoTest
 /generator
+/performanceTest
+/sanityTest
