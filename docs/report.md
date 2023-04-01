@@ -1,9 +1,3 @@
----
-author: Федотов Илья Нюргустанович
-date: 2022
-title: Алгоритм Лемпеля --- Зива --- Уэлча
----
-
 # 1. Введение
 
 LZW (Lempel-Ziv-Welch) — это алгоритм сжатия данных без потерь,
@@ -264,3 +258,15 @@ LZW — это метод сжатия данных, который воспол
 
 ## Тесты 5-8
 Проверка на корректность работы декодирования.
+
+# Источники
+* . Семенюк В. В. Экономное кодирование дискретной информации. –СПб.: СПбГИТМО (ТУ), 2001. – 115 с. - Режим доступа: http://compression.ru/download/articles/rev_univ/semenyuk_2001_econom_encoding.pdf
+* Mark R. Nelson «LZW Data Compression» [Электронный ресурс]: электрон. cтатья/ Mark R. Nelson, 1989. – Режим доступа: https://marknelson.us/posts/1989/10/01/lzw-data-compression.html
+* Алгоритм LZW [Электронный ресурс]: электрон. cтатья/ информационный ресурс ИТМО, 2022. – Режим доступа: http://neerc.ifmo.ru/mediawiki/index.php?title=Алгоритм_LZW&redirect=no
+* Hans Wennborg «Shrink, Reduce, and Implode: The Legacy Zip Compression Methods» [Электронный ресурс]: электрон. cтатья/ Hans Wennborg, 2021. – Режим доступа: https://www.hanshq.net/zip2.html
+* «Подстановочные или словарно-ориентированные алгоритмы сжатия информации. Методы Лемпела-Зива» [Электронный ресурс]/ ИНТУИТ, 2007. Режим доступа: https://intuit.ru/studies/courses/2256/140/lecture/3904
+* Michael Dipperstein «Lempel-Ziv-Welch (LZW) Encoding Discussion and Implementation» [Электронный ресурс]: электрон. cтатья/ Michael Dipperstein, 2015. Режим доступа: http://michael.dipperstein.com/lzw/
+* Ziv J., Lempel A. «Compression of Individual Sequences via Variable-Rate Coding. » / IEEE Trans. Inform. Theory, 1978 – 530-536 с
+* Welch T. «A Technique for High-Performance Data Compression. »/ Computer, 1984 – 8-19 с.
+* Сэломон Д. «Сжатие данных, изображений и звука.» / М.Техносфера. 2006.
+* Пантелеев Е. Р., Алыкова А. Л. «Алгоритмы сжатия данных без потерь»: учебное пособие для вузов / Е. Р. Пантелеев, А. Л. Алыкова. — СанктПетербург: Лань, 2021. – 172 с
