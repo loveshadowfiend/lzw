@@ -7,7 +7,7 @@ using namespace std;
 namespace fs = std::filesystem;
 
 int main() {
-    std::string path = "tests/";
+    std::string path = "sanityTests/";
 
     int test_count = 0;
     for (const auto &entry : fs::directory_iterator(path)) {
